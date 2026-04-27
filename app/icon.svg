@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#20150E" />
+  <rect x="5" y="5" width="54" height="54" rx="14" fill="#B85A2D" />
+
+  <path
+    d="M14 45.5H50"
+    stroke="#FFF6EC"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M20 45.5V22.5H31.5L38 29V45.5"
+    stroke="#FFF6EC"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M31.5 22.5V29H38"
+    stroke="#FFF6EC"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <rect x="24" y="33" width="4.5" height="4.5" rx="1" fill="#FFF6EC" />
+  <rect x="30.5" y="33" width="4.5" height="4.5" rx="1" fill="#FFF6EC" />
+  <rect x="24" y="39.5" width="4.5" height="4.5" rx="1" fill="#FFF6EC" />
+  <rect x="30.5" y="39.5" width="4.5" height="4.5" rx="1" fill="#FFF6EC" />
+
+  <path
+    d="M42.5 18V45.5"
+    stroke="#F3DFCB"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M42.5 20.5H50"
+    stroke="#F3DFCB"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M47.5 20.5V27"
+    stroke="#F3DFCB"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+
+  <circle cx="47.5" cy="29.5" r="2" fill="#F3DFCB" />
+</svg>
