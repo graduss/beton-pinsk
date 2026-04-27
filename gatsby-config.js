@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `TP Construction`,
-    fullTitle: `TANPEL CONSTRUCTION`,
-    description: `Listen better | Plan better | Build better.`,
+    title: `БЕТОН В ПИНСК`,
+    fullTitle: `Бетон в Пинске`,
+    description: `Доставка бетона по Пинску и Пинскому району.`,
     about: `Since our incorporation in 1981, we've grown from a regional organization to a multi-faceted, national presence in the industry with headquarters in New York.`,
     email: `info@tanpelconstruction.com`,
     social: {
@@ -34,11 +34,9 @@ module.exports = {
     },
 
     author: {
-      name: `Mark Dino Pelonia`,
-      position: `Web Developer`,
-      email: `markdinopelonia447@gmail.com`,
-      contact: `(+63) 946 290 9678`,
-      website: `https://markdino.github.io/portfolio`,
+      name: `Жибуртович Александр`,
+      position: `Full Stack Developer`,
+      website: `https://www.linkedin.com/in/azhyburtovich/`,
     },
   },
   plugins: [

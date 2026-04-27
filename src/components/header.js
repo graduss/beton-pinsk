@@ -40,7 +40,7 @@ class Header extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem>
+                {/* <NavItem>
                   <Link
                     className="nav-link"
                     activeStyle={{ fontWeight: "bold" }}
@@ -48,10 +48,10 @@ class Header extends Component {
                   >
                     Home
                   </Link>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
-                  <Link className="nav-link" to="projects/#project">
-                    Projects
+                  <Link className="nav-link" to="#project">
+                    Проекты
                   </Link>
                 </NavItem>
                 <NavItem>
@@ -60,16 +60,7 @@ class Header extends Component {
                     activeStyle={{ fontWeight: "bold" }}
                     to="/services/#services"
                   >
-                    Services
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link
-                    className="nav-link"
-                    activeStyle={{ fontWeight: "bold" }}
-                    to="/careers/#careers"
-                  >
-                    Careers
+                    Услуги
                   </Link>
                 </NavItem>
                 <NavItem>
@@ -78,7 +69,7 @@ class Header extends Component {
                     activeStyle={{ fontWeight: "bold" }}
                     to="/about/#about"
                   >
-                    About Us
+                    О нас
                   </Link>
                 </NavItem>
                 <NavItem>
@@ -87,7 +78,7 @@ class Header extends Component {
                     activeStyle={{ fontWeight: "bold" }}
                     to="/contact/#contact"
                   >
-                    Contact
+                    Контакты
                   </Link>
                 </NavItem>
               </Nav>
