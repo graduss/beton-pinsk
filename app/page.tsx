@@ -295,7 +295,7 @@ export default function Home() {
               <a
                 className="mt-6 inline-flex h-12 items-center justify-center rounded-full bg-transparent border border-white/12 px-6 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent)] transition hover:bg-[var(--accent-soft)]"
                 href="tel:+375445508302"
-              >border-[var(--accent)]
+              >
                 Позвонить
               </a>
             </div>
