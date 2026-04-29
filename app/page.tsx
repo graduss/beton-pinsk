@@ -212,9 +212,8 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-black/65">
-              Исходный документ указывает, что стоимость зависит от объема
-              заказа и расстояния доставки. Ниже оставлен ориентир по позициям
-              из прайс-листа.
+              Ниже оставлен ориентир по позициям из прайс-листа. Доставка
+              рассчитывается отдельно с учетом расстояния до объекта.
             </p>
           </div>
 
@@ -247,8 +246,8 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-base leading-7 text-black/72">
               Смесь постоянно перемешивается в бетоновозе, а при разгрузке
-              используется лоток длиной до 8 метров. Стоимость доставки зависит
-              от объема заказа и расстояния от РБУ до объекта.
+              используется лоток длиной до 8 метров. Стоимость доставки
+              рассчитывается по расстоянию от РБУ до объекта.
             </p>
           </article>
 
@@ -260,12 +259,47 @@ export default function Home() {
               Сколько стоит куб бетона в Пинске с доставкой?
             </h2>
             <p className="mt-4 text-base leading-7 text-white/78">
-              Цена зависит от марки и класса прочности, типа заполнителя,
-              объема заказа и расстояния доставки. В документе приведены
-              ориентировочные заводские цены без доставки: от 200 р. за М150 до
-              295 р. за М500 на мелком щебне, плюс доставка миксером от 120 р.
+              Цена зависит от марки и класса прочности, типа заполнителя и
+              расстояния доставки. В документе приведены ориентировочные
+              заводские цены без доставки: от 200 р. за М150 до 295 р. за М500
+              на мелком щебне, плюс доставка миксером от 120 р.
             </p>
           </article>
+        </section>
+
+        <section className="mt-20 rounded-[32px] border border-black/10 bg-[linear-gradient(135deg,#2c2119,#5a321f)] p-8 text-white shadow-[0_24px_70px_rgba(22,15,9,0.24)] sm:p-10">
+          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
+            <div>
+              <div className="text-xs uppercase tracking-[0.24em] text-white/55">
+                Аренда спецтехники
+              </div>
+              <h2 className="mt-4 max-w-3xl font-[var(--font-display)] text-4xl leading-none sm:text-5xl">
+                Предоставляем услуги по аренде техники
+              </h2>
+              <p className="mt-5 max-w-3xl text-base leading-7 text-white/78 sm:text-lg">
+                Экскаватор ЕК-12, самосвал МАЗ грузоподъемностью 10 тонн и
+                погрузчик Амкодор доступны для работ на объекте.
+              </p>
+            </div>
+
+            <div className="rounded-[24px] border border-white/12 bg-white/10 p-6">
+              <div className="text-xs uppercase tracking-[0.24em] text-white/55">
+                Номер телефона
+              </div>
+              <a
+                className="mt-3 block font-[var(--font-display)] text-3xl leading-none text-white sm:text-4xl"
+                href="tel:+375445508302"
+              >
+                +375 44 550-83-02
+              </a>
+              <a
+                className="mt-6 inline-flex h-12 items-center justify-center rounded-full bg-transparent border border-white/12 px-6 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent)] transition hover:bg-[var(--accent-soft)]"
+                href="tel:+375445508302"
+              >
+                Позвонить
+              </a>
+            </div>
+          </div>
         </section>
 
         <footer className="mt-20 rounded-[28px] border border-black/10 bg-white/75 px-6 py-7 text-sm leading-6 text-black/65 shadow-[0_18px_44px_rgba(35,24,14,0.06)]">
