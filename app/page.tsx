@@ -304,7 +304,7 @@ export default function Home() {
 
         <footer className="mt-20 rounded-[28px] border border-black/10 bg-white/75 px-6 py-7 text-sm leading-6 text-black/65 shadow-[0_18px_44px_rgba(35,24,14,0.06)]">
           <p>
-            Купить бетон в Пинске можно по телефону{" "}
+            Заказать доставку бетона в Пинске можно по телефону{" "}
             <a className="font-semibold text-[var(--accent)]" href="tel:+375447391821">
               +375 44 739-18-21
             </a>
