@@ -1,8 +1,8 @@
 const advantages = [
-  {
-    title: "Доставка за 2 часа",
-    text: "Позволяет привезти бетон в день заявки объемом от 6 до 12 м3.",
-  },
+  // {
+  //   title: "Доставка за 2 часа",
+  //   text: "Позволяет привезти бетон в день заявки объемом от 6 до 12 м3.",
+  // },
   {
     title: "Паспорт качества",
     text: "Сертификат и паспорт партии по СТБ 1544 с указанием марки, класса прочности, F и W.",
@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-24 lg:px-10">
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 lg:grid-cols-2">
           {advantages.map((item) => (
             <article
               key={item.title}
